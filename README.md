@@ -1,1 +1,1 @@
-# TutorEZ front end
+# TutorEZ front end ez way too ez
