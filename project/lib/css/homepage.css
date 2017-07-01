@@ -23,3 +23,15 @@ input{
 	font-size: 48px;
 }
 
+.lowerMenu{
+	background-color: rgb(88, 88, 88);
+	text-align: center;
+}
+.lowBut{
+	border:none;
+	background: none;
+	outline: none;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
