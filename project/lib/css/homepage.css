@@ -83,6 +83,6 @@ button {
 }
 
 .searchClicked{
-	background-color: rgb(255, 166, 77);
+	border: 2px solid rgb(255, 166, 77);
 	outline: none;
 }
