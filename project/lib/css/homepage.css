@@ -4,6 +4,9 @@ body{
 
 input{
 	font-size: 32px;
+	font-family: 'Spectral', serif;
+	width: 40%;
+	margin-top: 40px;
 }
 
 .welcome{
@@ -16,11 +19,14 @@ input{
 }
 
 .welcome{
-	font-size: 32px;
+	font-size: 36px;
+	font-family: 'Spectral', serif;
 }
 
 .brand{
-	font-size: 48px;
+	font-size: 90px;
+	font-family: 'Spectral', serif;
+	color: rgb(88, 88, 88);
 }
 
 .lowerMenu{
@@ -36,3 +42,8 @@ input{
 	font-weight: 500;
 	font-family: 'Spectral', serif;
 }
+
+button {
+
+}
+
