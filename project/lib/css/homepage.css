@@ -6,7 +6,7 @@ input{
 	
 	font-family: 'Spectral', serif;
 	width: 40%;
-	margin-top: 40px;
+	margin-top:190px;
 	border: rgb(88, 88, 88);
 }
 
@@ -21,7 +21,7 @@ input[type="text"]
 	background: #06beb6;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	height: 400px;
+	height: 980px;
 	margin: 0;
 	text-align: center;
 }
@@ -32,7 +32,6 @@ input[type="text"]
 	font-family: 'Spectral', serif;
 	color: white;
 	text-align: left;
-	margin-left: 0;
 	background-color: rgb(88, 88, 88);
 	letter-spacing: 3px;
 	text-indent: 75px;
@@ -42,7 +41,7 @@ input[type="text"]
 .lowerMenu{
 	background-color: rgb(88, 88, 88);
 	text-align: center;
-	height: 680px;
+	height: 100px;
 }
 .lowBut{
 	border:none;
