@@ -7,6 +7,7 @@ input{
 	font-family: 'Spectral', serif;
 	width: 40%;
 	margin-top: 40px;
+	border: rgb(88, 88, 88);
 }
 
 .welcome{
@@ -40,6 +41,10 @@ input{
 }
 
 button {
+	border:none;
+	background: none;
+	outline: none;
+	color: rgb(88, 88, 88);
 
 }
 
