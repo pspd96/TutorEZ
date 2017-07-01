@@ -3,11 +3,16 @@ body{
 }
 
 input{
-	font-size: 32px;
+	
 	font-family: 'Spectral', serif;
 	width: 40%;
 	margin-top: 40px;
 	border: rgb(88, 88, 88);
+}
+
+input[type="text"]
+{
+    font-size:28px;
 }
 
 .welcome{
