@@ -28,7 +28,13 @@ input[type="text"]
 .brand{
 	font-size: 90px;
 	font-family: 'Spectral', serif;
-	color: rgb(88, 88, 88);
+	color: white;
+	text-align: left;
+	margin-left: 0;
+	background-color: rgb(88, 88, 88);
+	letter-spacing: 3px;
+	text-indent: 75px;
+
 }
 
 .lowerMenu{
@@ -53,3 +59,19 @@ button {
 
 }
 
+.break {
+	height: 20px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	color: rgb(88, 88, 108)
+}
+#access {
+	
+	font-size: 20px;
+	color: white;
+	margin-right: 50px; 
+}
+.signupBar{
+	background-color: rgb(88, 88, 88);
+	text-align: right;
+}
