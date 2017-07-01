@@ -81,3 +81,8 @@ button {
 	text-align: right;
 
 }
+
+.searchClicked{
+	background-color: rgb(255, 166, 77);
+	outline: none;
+}
