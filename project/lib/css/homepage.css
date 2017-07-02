@@ -107,3 +107,7 @@ button {
 	margin-top: 80px;
 	
 }
+
+.signUpHover{
+	border: 2px solid rgb(19, 96, 174);
+}

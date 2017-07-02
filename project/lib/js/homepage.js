@@ -16,3 +16,11 @@ menuOpen[i].addEventListener("mouseleave", function(){
 	this.classList.toggle("onHover");
 });
 }
+
+var signUpButton = document.querySelector(".mainPageSignUp");
+signUpButton.addEventListener("mouseover", function(){
+	this.classList.toggle("signUpHover");
+});
+signUpButton.addEventListener("mouseleave", function(){
+	this.classList.toggle("signUpHover");
+});
