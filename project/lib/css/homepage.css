@@ -64,10 +64,12 @@ button {
 }
 
 .break {
-	height: 20px;
+	margin-top: 0;
+	height: 8px;
 	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	box-shadow: 0 12px 12px -10px #8c8b8b inset;
 	color: rgb(88, 88, 108);
+	background-color: orange;
 }
 .access {
 	
