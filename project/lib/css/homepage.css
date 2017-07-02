@@ -31,6 +31,7 @@ input[type="text"]
 
 .brand{
 	font-size: 90px;
+	height: 90px;
 	font-family: 'Spectral', serif;
 	color: white;
 	text-align: left;
