@@ -75,6 +75,7 @@ button {
 	color: white;
 	margin-right: 50px; 
 	font-family: 'Spectral', serif;
+	border-left: solid 2px orange;
 }
 .signupBar{
 	background-color: rgb(88, 88, 88);
