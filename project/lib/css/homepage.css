@@ -1,12 +1,14 @@
 body{
 	margin: 0;
+	background-color: rgb(242, 242, 242);
+	
 }
 
 input{
 	
 	font-family: 'Roboto', sans-serif;
 	width: 40%;
-	margin-top:280px;
+	margin-top:80px;
 	border: groove 3px rgb(192, 192, 192);
 
 }
@@ -23,8 +25,7 @@ input[type="text"]
 	/* background: #06beb6;  fallback for old browsers
 	background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  Chrome 10-25, Safari 5.1-6
 	background: linear-gradient(to right, #48b1bf, #06beb6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background-color: rgb(242, 242, 242);
-	height: 980px;
+	
 	margin: 0;
 	text-align: center;
 }
@@ -105,10 +106,11 @@ button {
 	padding: 20px;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 50px
 }
 
 .ifTutor{
-	margin-top: 80px;
+	margin-top: 30px;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -126,8 +128,13 @@ button {
 }
 .categoryButtons {
 	font-size: 24px;
-	background: rgba(102, 180, 253, 1);
-	padding: 20px;
-	color: white;
 	font-family: 'Roboto', sans-serif;
+}
+.theTool{
+	margin-top: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
+	height: 500px;
+	background-color: rgb(212, 212, 212);
+	
 }
