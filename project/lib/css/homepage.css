@@ -116,5 +116,8 @@ button {
 	background-color:  rgb(255, 166, 77);
 }
 .upperShiz {
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
