@@ -7,7 +7,7 @@ body{
 input{
 	
 	font-family: 'Roboto', sans-serif;
-	width: 40%;
+	width: 50%;
 	margin-top:80px;
 	border: groove 3px rgb(192, 192, 192);
 
@@ -17,7 +17,7 @@ input[type="text"]
 {
 	font-family: 'Roboto', sans-serif;
     font-size:28px;
-    text-indent: 30px;
+    text-indent: 20px;
 
 }
 
@@ -25,7 +25,7 @@ input[type="text"]
 	/* background: #06beb6;  fallback for old browsers
 	background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  Chrome 10-25, Safari 5.1-6
 	background: linear-gradient(to right, #48b1bf, #06beb6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
+	height: 980px;
 	margin: 0;
 	text-align: center;
 }
@@ -93,7 +93,7 @@ button {
 }
 
 .searchClicked{
-	border: 2px solid rgb(255, 166, 77);
+	border: 3px solid rgb(255, 166, 77);
 	outline: none;
 }
 
