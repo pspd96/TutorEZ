@@ -47,9 +47,11 @@ input[type="text"]
 .lowerMenu{
 	background-color: rgb(88, 88, 88);
 	text-align: center;
-	height: 100px;
+	height: 125px;
+
 }
 .lowBut{
+	margin-top: 15px;
 	border:none;
 	background: none;
 	outline: none;
@@ -133,10 +135,11 @@ button {
 	font-family: 'Roboto', sans-serif;
 }
 .theTool{
-	margin-top: 200px;
-	margin-left: 400px;
-	margin-right: 400px;
+	margin-top:11%;
+	margin-bottom:5%;
+	margin-left:20%;
+	margin-right:20%;
 	height: 500px;
 	background-color: rgb(227, 227, 227);
-	
+	border: 3px solid rgb(220, 220, 220);
 }
