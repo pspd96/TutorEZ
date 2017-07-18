@@ -125,6 +125,8 @@ button {
 }
 .category {
 	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
 .categoryButtons {
 	font-size: 24px;
