@@ -115,3 +115,6 @@ button {
 .signUpHover{
 	background-color:  rgb(255, 166, 77);
 }
+.upperShiz {
+	position: fixed;
+}
