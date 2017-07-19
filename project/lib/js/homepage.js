@@ -29,11 +29,11 @@ signUpButton.addEventListener("mouseleave", function(){
 
  for(z=0; z<categoryButton.length; z++){
  categoryButton[z].addEventListener("focus", function(){
- 	this.classList.toggle("onHover");
+ 	this.classList.toggle("subjectFocus");
  });
  }
  for(z=0; z<categoryButton.length; z++){
  categoryButton[z].addEventListener("blur", function(){
- 	this.classList.toggle("onHover");
+ 	this.classList.toggle("subjectFocus");
  });
  }
