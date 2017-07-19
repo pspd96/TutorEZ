@@ -157,4 +157,6 @@ fieldset{
 .check{
 	width: 50%;
 	float: right;
+	font-family: inherit;
+	text-align: left;
 }
