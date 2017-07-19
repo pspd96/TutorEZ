@@ -28,7 +28,7 @@ input[type="checkbox"]{
 	text-indent: 0px; 
 	text-align: center;
 	margin: none;
-	float: left;
+	
 }
 
 .welcome{
@@ -157,4 +157,7 @@ fieldset{
 .check{
 	width: 50%;
 	float: right;
+	font-family: inherit;
+	text-align: left;
+
 }
