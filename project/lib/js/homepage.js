@@ -24,6 +24,12 @@ signUpButton.addEventListener("mouseover", function(){
 signUpButton.addEventListener("mouseleave", function(){
 	this.classList.toggle("signUpHover");
 });
+signUpButton.addEventListener("focus", function(){
+	this.classList.toggle("signUpFocus");
+});
+signUpButton.addEventListener("blur", function(){
+	this.classList.toggle("signUpFocus");
+});
 
  var categoryButton = document.querySelectorAll(".categoryButtons")
 

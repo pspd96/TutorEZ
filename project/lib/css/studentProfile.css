@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	background-color: rgb(249, 249, 249);
+}
+
+input{
+	
+	font-family: 'Roboto', sans-serif;
+	width: 50%;
+	margin-top:80px;
+	border: groove 3px rgb(192, 192, 192);
+
+}
+
+input[type="text"]
+{
+	font-family: 'Roboto', sans-serif;
+    font-size:28px;
+    text-indent: 20px;
+
+}
+
+.welcome{
+	/* background: #06beb6;  fallback for old browsers
+	background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  Chrome 10-25, Safari 5.1-6
+	background: linear-gradient(to right, #48b1bf, #06beb6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 980px;
+	margin: 0;
+	text-align: center;
+}
+
+
+.brand{
+	font-size: 50px;
+	height: 35px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: left;
+	background-color: rgb(88, 88, 88);
+	letter-spacing: 2px;
+	text-indent: 75px;
+
+
+}
+
+.lowerMenu{
+	background-color: rgb(88, 88, 88);
+	text-align: center;
+	height: 125px;
+
+}
+.lowBut{
+	margin-top: 15px;
+	border:none;
+	background: none;
+	outline: none;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+button {
+	border:none;
+	background: none;
+	outline: none;
+	color: rgb(88, 88, 88);
+
+}
+
+.break {
+	margin-top: 0;
+	height: 8px;
+	border: 0;
+	box-shadow: 0 12px 12px -10px #8c8b8b inset;
+	color: rgb(88, 88, 108);
+	background-color: orange;
+}
+
+.access {
+	
+	font-size: 18px;
+	color: white;
+	margin-right: 50px; 
+	font-family: 'Roboto', sans-serif;
+	border-left: solid 2px orange;
+}
+
+.signupBar{
+	background-color: rgb(88, 88, 88);
+	text-align: right;
+}
+
+.studentProfileDiv{
+	margin-top:11%;
+	margin-bottom:5%;
+	margin-left:20%;
+	margin-right:20%;
+	height: 500px;
+	background-color: rgb(227, 227, 227);
+	border: 3px solid rgb(220, 220, 220);
+}
+
+.profilePic{
+	width: 25%;
+	height: 25%;
+	border: 5px solid orange;
+	float: right;
+}
+
+.accountDetails{
+	width: 70%;
+	float: left;
+}
+
+.accountDetailText{
+	font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+.onHover{
+	text-decoration: underline;
+	color: rgb(255, 166, 77);
+}
