@@ -156,6 +156,7 @@ span {
 	float: left;
 	margin-left: 10%;
 	font-size: 2em;
+	margin:0;
 }
 .profilePic{
 	width: 25%;
