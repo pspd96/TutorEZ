@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	background-color: rgb(249, 249, 249);
-	
 }
 
 input{
@@ -85,11 +84,10 @@ button {
 	font-family: 'Roboto', sans-serif;
 	border-left: solid 2px orange;
 }
+
 .signupBar{
 	background-color: rgb(88, 88, 88);
 	text-align: right;
-
-
 }
 
 .searchClicked{
