@@ -19,13 +19,7 @@ input
     float: right;
 
 }
-input[type="submit"]{
-	text-indent: 0px; 
-	text-align: center;
-	margin: auto;
-	float: none;
-	width: 25%;
-}
+
 input[type="checkbox"]{
 	text-indent: 0px; 
 	text-align: center;
@@ -111,12 +105,16 @@ button {
 	color: rgb(255, 166, 77);
 }
 
-.mainPageSignUp{
-	font-size: 24px;
+.submitButton{
+	font-size: inherit;
 	background: rgba(102, 180, 253, 1);
-	padding: 20px;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	text-indent: 0px; 
+	text-align: center;
+	margin: auto;
+	float: none;
+	width: 25%;
 }
 
 .ifTutor{
@@ -124,9 +122,14 @@ button {
 	font-family: 'Roboto', sans-serif;
 }
 
-.signUpHover{
+.submitHover{
 	background-color:  rgb(255, 166, 77);
 }
+
+.submitFocus{
+	background-color:  rgb(255, 166, 77);
+}
+
 .upperShiz {
 	position: fixed;
 	top: 0;
@@ -164,4 +167,9 @@ fieldset{
 	font-family: inherit;
 	text-align: left;
 	font-size: 1.0em;
+}
+
+.textFieldFocus{
+	border: 1px solid orange;
+	outline: none;
 }
