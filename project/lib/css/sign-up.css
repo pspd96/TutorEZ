@@ -27,7 +27,6 @@ input[type="submit"]{
 input[type="checkbox"]{
 	text-indent: 0px; 
 	text-align: center;
-	margin: none;
 	float: left;
 }
 
