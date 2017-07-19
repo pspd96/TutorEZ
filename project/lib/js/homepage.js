@@ -25,10 +25,15 @@ signUpButton.addEventListener("mouseleave", function(){
 	this.classList.toggle("signUpHover");
 });
 
-// var categoryButton = document.querySelectorAll(".categoryButtons")
+ var categoryButton = document.querySelectorAll(".categoryButtons")
 
-// for(z=0; z<categoryButton.length; z++){
-// categoryButton[z].addEventListener("click", function(){
-// 	this.classList.toggle("onHover");
-// });
-// }
+ for(z=0; z<categoryButton.length; z++){
+ categoryButton[z].addEventListener("focus", function(){
+ 	this.classList.toggle("onHover");
+ });
+ }
+ for(z=0; z<categoryButton.length; z++){
+ categoryButton[z].addEventListener("blur", function(){
+ 	this.classList.toggle("onHover");
+ });
+ }
