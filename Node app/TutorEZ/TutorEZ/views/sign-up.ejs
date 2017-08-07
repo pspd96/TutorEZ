@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nLit: Sign-Up</title>
+	<link rel="stylesheet" type="text/css" href="/lib/css/sign-up.css">
+	<link rel="stylesheet" type="text/css" href="/lib/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+</head>
+<body>
+		<div class="welcome">
+			<div class="upperShiz">
+				<div class="brand">nLit</div>
+					<div class="signupBar">
+						<button class="access redirect">Login</button>
+						<button class="access redirect">Sign Up</button>
+					</div>
+				<hr class="break">
+			</div>
+			<div class="center">
+				<div class="formDiv" style="float: left">
+					<span class="formTitle">If you are a student:</span>
+						<div class="formDiv2">
+							<form>
+								<fieldset>
+								<span class="formHead">Name:</span>
+								<input type="text" name="studentName" placeholder="Your Name" class="textFields"><br>
+								</fieldset>
+								<fieldset>
+								<span class="formHead">E-mail:</span>
+								<input type="text" name="studentE-mail" placeholder="Your E-mail" class="textFields"><br>
+								</fieldset>
+								<fieldset>
+								<span class="formHead">Password:</span>
+								<input type="Password" name="studentPass" placeholder="Password" class="textFields"><br>
+								</fieldset>
+								<input type="submit" value="Submit" class="submitButton">
+							</form>	
+						</div>
+				</div>
+				<div class="formDiv" style="float: right; border-left: 2px solid orange;">
+					<span class="formTitle">If you are a teacher:</span>
+						<div class="formDiv2">
+							<form>
+								<fieldset>
+								<span class="formHead">Name:</span>
+								<input type="text" name="teacherName" placeholder="Your Name" class="textFields"><br>
+								</fieldset>
+								<fieldset>
+								<span class="formHead">E-mail:</span>
+								<input type="text" name="teacherE-mail" placeholder="Your E-mail" class="textFields"><br>
+								</fieldset>
+								<fieldset>
+								<span class="formHead">Password:</span>
+								<input type="Password" name="teacherPass" placeholder="Password" class="textFields"><br>
+								</fieldset>
+								<fieldset>
+									<span class="formHead">Subjects of Expertise:</span>
+									<div class="check">
+									<input type="checkbox" name="Math">Math<br>
+									<input type="checkbox" name="Science">Science<br>
+									<input type="checkbox" name="English">English<br>
+									<input type="checkbox" name="Language">Language<br>
+									<input type="checkbox" name="Arts">Arts<br>
+									<input type="checkbox" name="Others">Others (Please Specify)<br>
+									</div>
+								</fieldset>
+								<input type="submit" value="Submit" class="submitButton">
+							</form>
+						</div>
+				</div>	
+			</div>
+		</div>
+		<div class="lowerMenu">
+			<button class="lowBut redirect">Teacher Catalogue</button>
+			<button class="lowBut redirect">About us</button>
+			<button class="lowBut redirect">Contact us</button>
+		</div>
+		<script type="text/javascript" src="lib/js/sign-up.js"></script>
+</body>
+</html>

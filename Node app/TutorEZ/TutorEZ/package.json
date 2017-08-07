@@ -1,0 +1,14 @@
+{
+  "name": "tutor-ez",
+  "version": "0.0.0",
+  "description": "TutorEZ",
+  "main": "app.js",
+  "author": {
+    "name": "Luis"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
