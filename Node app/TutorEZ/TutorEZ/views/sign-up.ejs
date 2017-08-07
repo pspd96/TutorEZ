@@ -2,13 +2,7 @@
 <html>
 <head>
 	<title>nLit: Sign-Up</title>
-	<link rel="stylesheet" type="text/css" href="/lib/css/sign-up.css">
-	<link rel="stylesheet" type="text/css" href="/lib/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
-</head>
-<body>
-		<div class="welcome">
-			<% include partials/topBar %>
+		<% include partials/topBar %>
 			<div class="center">
 				<div class="formDiv" style="float: left">
 					<span class="formTitle">If you are a student:</span>
@@ -16,17 +10,17 @@
 							<form>
 								<fieldset>
 								<span class="formHead">Name:</span>
-								<input type="text" name="studentName" placeholder="Your Name" class="textFields"><br>
+								<input id="signUpInput" type="text" name="studentName" placeholder="Your Name" class="textFields"><br>
 								</fieldset>
 								<fieldset>
 								<span class="formHead">E-mail:</span>
-								<input type="text" name="studentE-mail" placeholder="Your E-mail" class="textFields"><br>
+								<input id="signUpInput" type="text" name="studentE-mail" placeholder="Your E-mail" class="textFields"><br>
 								</fieldset>
 								<fieldset>
 								<span class="formHead">Password:</span>
-								<input type="Password" name="studentPass" placeholder="Password" class="textFields"><br>
+								<input id="signUpInput" type="Password" name="studentPass" placeholder="Password" class="textFields"><br>
 								</fieldset>
-								<input type="submit" value="Submit" class="submitButton">
+								<input id="signUpInput" type="submit" value="Submit" class="submitButton">
 							</form>	
 						</div>
 				</div>
@@ -36,28 +30,28 @@
 							<form>
 								<fieldset>
 								<span class="formHead">Name:</span>
-								<input type="text" name="teacherName" placeholder="Your Name" class="textFields"><br>
+								<input id="signUpInput" type="text" name="teacherName" placeholder="Your Name" class="textFields"><br>
 								</fieldset>
 								<fieldset>
 								<span class="formHead">E-mail:</span>
-								<input type="text" name="teacherE-mail" placeholder="Your E-mail" class="textFields"><br>
+								<input id="signUpInput" type="text" name="teacherE-mail" placeholder="Your E-mail" class="textFields"><br>
 								</fieldset>
 								<fieldset>
 								<span class="formHead">Password:</span>
-								<input type="Password" name="teacherPass" placeholder="Password" class="textFields"><br>
+								<input id="signUpInput" type="Password" name="teacherPass" placeholder="Password" class="textFields"><br>
 								</fieldset>
 								<fieldset>
 									<span class="formHead">Subjects of Expertise:</span>
 									<div class="check">
-									<input type="checkbox" name="Math">Math<br>
-									<input type="checkbox" name="Science">Science<br>
-									<input type="checkbox" name="English">English<br>
-									<input type="checkbox" name="Language">Language<br>
-									<input type="checkbox" name="Arts">Arts<br>
-									<input type="checkbox" name="Others">Others (Please Specify)<br>
+									<input id="signUpInput" type="checkbox" name="Math">Math<br>
+									<input id="signUpInput" type="checkbox" name="Science">Science<br>
+									<input id="signUpInput" type="checkbox" name="English">English<br>
+									<input id="signUpInput" type="checkbox" name="Language">Language<br>
+									<input id="signUpInput" type="checkbox" name="Arts">Arts<br>
+									<input id="signUpInput" type="checkbox" name="Others">Others (Please Specify)<br>
 									</div>
 								</fieldset>
-								<input type="submit" value="Submit" class="submitButton">
+								<input id="signUpInput" type="submit" value="Submit" class="submitButton">
 							</form>
 						</div>
 				</div>	

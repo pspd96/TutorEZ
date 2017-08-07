@@ -4,7 +4,6 @@ body{
 }
 
 input{
-	
 	font-family: 'Roboto', sans-serif;
 	width: 50%;
 	margin-top:80px;
@@ -132,4 +131,16 @@ button {
 .onHover{
 	text-decoration: underline;
 	color: rgb(255, 166, 77);
+}
+
+.teachProf
+{
+	text-align: center;
+	margin-top:11%;
+	margin-bottom:5%;
+	margin-left:20%;
+	margin-right:20%;
+	height: 500px;
+	background-color: rgb(227, 227, 227);
+	border: 3px solid rgb(220, 220, 220);
 }

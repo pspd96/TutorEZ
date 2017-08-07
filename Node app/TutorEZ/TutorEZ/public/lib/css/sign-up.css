@@ -3,21 +3,13 @@ body{
 	background-color: rgb(242, 242, 242)
 }
 
-form{
-	font-family: 'Roboto', sans-serif;
-	width: 100%;
-	float: right;
-}
-
-input
-{
+input{
 	font-family: 'Roboto', sans-serif;
     font-size:20px;
     text-indent: 10px;
     border: groove 1px rgb(192, 192, 192);
     width: 50%;
     float: right;
-
 }
 
 input[type="checkbox"]{

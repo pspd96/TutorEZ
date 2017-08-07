@@ -1,16 +1,13 @@
 body{
 	margin: 0;
 	background-color: rgb(249, 249, 249);
-	
 }
 
 input{
-	
 	font-family: 'Roboto', sans-serif;
 	width: 50%;
 	margin-top:80px;
 	border: groove 3px rgb(192, 192, 192);
-
 }
 
 input[type="text"]
@@ -18,13 +15,35 @@ input[type="text"]
 	font-family: 'Roboto', sans-serif;
     font-size:28px;
     text-indent: 20px;
+}
 
+input[type="checkbox"]{
+	text-indent: 0px; 
+	text-align: center;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+}
+
+form{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	float: right;
+}
+
+button {
+	border:none;
+	background: none;
+	outline: none;
+	color: rgb(88, 88, 88);
+}
+
+fieldset{
+	border: none;
 }
 
 .welcome{
-	/* background: #06beb6;  fallback for old browsers
-	background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  Chrome 10-25, Safari 5.1-6
-	background: linear-gradient(to right, #48b1bf, #06beb6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	height: 980px;
 	margin: 0;
 	text-align: center;
@@ -40,8 +59,6 @@ input[type="text"]
 	background-color: rgb(88, 88, 88);
 	letter-spacing: 2px;
 	text-indent: 75px;
-
-
 }
 
 .lowerMenu{
@@ -59,14 +76,6 @@ input[type="text"]
 	letter-spacing: 2px;
 	font-weight: 500;
 	text-decoration: underline;
-}
-
-button {
-	border:none;
-	background: none;
-	outline: none;
-	color: rgb(88, 88, 88);
-
 }
 
 .break {
@@ -151,4 +160,121 @@ button {
 	height: 500px;
 	background-color: rgb(227, 227, 227);
 	border: 3px solid rgb(220, 220, 220);
+}
+
+.profileDiv{
+	margin-top:11%;
+	margin-bottom:5%;
+	margin-left:20%;
+	margin-right:20%;
+	height: 500px;
+	background-color: rgb(227, 227, 227);
+	border: 3px solid rgb(220, 220, 220);
+}
+
+.profilePic{
+	width: 25%;
+	height: 25%;
+	border: 5px solid orange;
+	float: right;
+}
+
+.accountDetails{
+	width: 70%;
+	float: left;
+}
+
+.accountDetailText{
+	font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+.tpTitle{
+	float: left;
+	margin-left: 10%;
+	font-size: 2em;
+	margin:0;
+	width: 70%
+}
+
+.profilePic{
+	width: 25%;
+	height: 25%;
+	border: 5px solid orange;
+	float: right;
+}
+
+.submitButton{
+	font-size: inherit;
+	background: rgba(102, 180, 253, 1);
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-indent: 0px; 
+	text-align: center;
+	margin: auto;
+	float: none;
+	width: 25%;
+}
+
+.ifTutor{
+	margin-top: 80px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.submitHover{
+	background-color:  rgb(255, 166, 77);
+}
+
+.submitFocus{
+	background-color:  rgb(255, 166, 77);
+}
+
+.center{
+	padding-top: 100px;
+}
+.formDiv{
+	width: 49.9%;
+	height: 100%;
+}
+
+.formHead{
+	float: left;
+	font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+.formTitle{
+	font-family: 'Roboto', sans-serif;
+    font-size:28px;
+}
+.formDiv2{
+	width: 60%;
+	margin: auto;
+	padding-top: 10px;
+}
+.check{
+	width: 50%;
+	float: right;
+	font-family: inherit;
+	text-align: left;
+	font-size: 1.0em;
+}
+
+.textFieldFocus{
+	border: 1px solid orange;
+	outline: none;
+}
+
+#signUpInput{
+	font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    border: groove 1px rgb(192, 192, 192);
+    width: 50%;
+    float: right;
+    margin:0;
 }
