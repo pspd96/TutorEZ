@@ -15,6 +15,14 @@ app.get("/signup", function (req, res) {
     res.render("sign-up");
 });
 
+app.get("/student", function (req, res) {
+    res.render("studentProfile");
+});
+
+app.get("/teacher", function (req, res) {
+    res.render("teacherProfile");
+});
+
 app.listen(3000, function () {
     console.log('Server has started');
 });
